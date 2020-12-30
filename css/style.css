@@ -1,6 +1,7 @@
 
 * {
     box-sizing: border-box;
+    background-color:#FFD8BC ;
 }
 title {
     display: none;
@@ -26,6 +27,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1;
+    background-color: #FF848A;
 }
 
 
@@ -79,3 +81,47 @@ body {
         font-family: 'Montserrat', sans-serif;
         color: #2e2e31;
         cursor: pointer;   }
+
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 80px 20px 60px;
+            background-color: #FF4C74;
+            color: white;
+        }
+        .footer-nav-menu {
+            display: flex;
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer-nav-link {
+            font-size: 14px;
+            color: white;
+            
+        }
+
+        ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #2e2e31;
+            display: block;
+        }
+        ul li, ol li {
+            line-height: 1.4;
+        }
