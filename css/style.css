@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    background-color:#FFD8BC ;
+   
 }
 title {
     display: none;
@@ -12,21 +12,24 @@ link {
     display: none;
 }
 header {
-   
-    padding: 25px 0;
+  
+    padding: 20px 20px 20px 20px;
     box-shadow: 0 0 29px 0  #136ba285;
     position: fixed;
     top: 0;
     transition: 0.4s
 }
  div.column.menu-icon-container {
+
 background-color: #FF848A;
+
 
 }
 header {
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
     top: 0;
     left: 0;
     z-index: 1;
@@ -154,7 +157,7 @@ body {
 }
 
 img {
-    display: block;
+    /*display: block;*/
     width: 88%;
 }
 
@@ -172,13 +175,24 @@ img {
     border-radius: 8px;
     padding: 20px;
     overflow: hidden; }
+    .about-section {
+        min-height: calc(100vh - 90px);
+        margin-top: 40px;
+    }
 
 .section {
     padding: 110px 40px 130px;
     text-align: center;
 
 }
-
+.presen{
+    color: #294B85;
+    font-size: 40px;
+    height: 42px;
+    text-align: left;
+    margin: 0px;
+    word-spacing: 0cm;
+}
 .primer-t{
     
         margin-top: 0;
@@ -196,6 +210,23 @@ img {
 h1{
     font-size: 60px;
     
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    color: #294B85;
+}
+h3{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22,4px;
+    margin: 16px 0 16px  425px;
+    
+    max-width: 400px;
+    min-width: auto;
+    text-decoration: none solid rgb(75,75,85);
 }
 .descripcion{
 font-size: 16px;
@@ -226,7 +257,7 @@ align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 5px;    
+   /* margin-top: 5px; */   
 }
 .fotologo{
     display: flex;
@@ -238,16 +269,17 @@ align-items: center;
     /* height: 200px;
     border: solid 1px  rgb(184, 216, 216); */
     border-radius: 15px;
-    box-shadow: 0px 0px 15px 0px  rgb(122, 158, 159);
+    box-shadow: 0px 0px 6px 0px rgb(255, 182, 212)  ;
     font-size: 25px;
-    color:  rgb(79, 99, 103);
+    /*color:  rgb(79, 99, 103);*/
 }
-.cards :hover{
+/*.cards :hover{
     box-shadow: 0px 0px 15px 0px  rgb(190, 174, 173);
-}
+}*/
 
 
 .subtitulo{
 font-size: 17px ;
 }
+
 
