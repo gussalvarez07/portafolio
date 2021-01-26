@@ -276,12 +276,12 @@ ul{
     padding: 30px 60px;
     border: solid 1px  rgb(184, 216, 216);
     border-radius: 15px;
-    box-shadow: 0px 0px 15px 0px  rgb(122, 158, 159);
+    box-shadow: 0px 0px 10px 0px #B4EDC1;;
     font-size: 16px;
     color:  rgb(79, 99, 103);
 }
-/*
-.contactame{
+
+.izquierda{
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -289,14 +289,6 @@ ul{
     font-weight: 300; 
     line-height: 40px;
     text-align: justify;
-}*/
-
-.margin-top30{
-    margin-top: 30px;  
-}
-
-.margin-top40{
-    margin-top: 40px;  
 }
 
 .lista-redes{
