@@ -254,8 +254,8 @@ ul{
 
 
 .proy{
-    width: 420px;
-    height: 300px;
+    width: 342px;
+    height: 329px;
 }
 
 .padding-botton{
@@ -318,11 +318,7 @@ ul{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-/*.form-control {
-    margin-bottom: 15px;
-    flex-grow: 1;
-    position: relative;
-}*/
+
     
 input, textarea {
     border: 0;
@@ -348,10 +344,7 @@ input, textarea {
         background-color: #B4EDC1;
         color: white;
     }
-   /* .footer-nav-link {
-        font-size: 14px;
-        color: white;
-    }*/
+   
     .footer-nav-menu {
         display: flex;
         height: 19px;
@@ -399,3 +392,4 @@ input, textarea {
         body{
         overflow-x: hidden; 
          }
+
