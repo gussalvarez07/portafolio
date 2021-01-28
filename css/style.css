@@ -16,7 +16,6 @@ body{
     display: flex;
     flex-direction:column ;
     height: 100%;
-
 }*/
 .header{    
     display: flex;
@@ -53,7 +52,7 @@ ul{
 .botones-inicio :hover{
     display: flex;
     list-style: none;
-    font-size: 20px;
+    
     font-weight: 300;
     color:#FF6D94;
 }
@@ -124,6 +123,7 @@ ul{
 .nombre{
     font-family: 'Fredoka One', cursive;
     font-size: 70px;
+    font-weight:100 ;
     color:#FF6D94;
    
 }
@@ -309,15 +309,15 @@ ul{
     color: rgb(254, 95, 85);
 }
 
+
 .primerp{
     font-size: 16px; 
     display: block;
-    margin-left: 530px ;
-    margin-top: 10px ;
+    margin-left: 455px ;
+    margin-top: 20px ;
     max-width: 400px;
     font-family: 'Josefin Sans', sans-serif;
 }
-
 
     
 input, textarea {
@@ -392,4 +392,11 @@ input, textarea {
         body{
         overflow-x: hidden; 
          }
-
+         .icono2{
+            padding-right: 35px;
+            margin-right: 10px;
+            margin-top: 30px;
+            padding-top: 17px;
+            height: 50px;
+            font-size:16px ;
+        }
