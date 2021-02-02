@@ -106,8 +106,8 @@ ul{
 
 .titulo-secundario, .descripcion{
     color: rgb(79, 99, 103);
-    margin-top: 25px;
-    margin-left: 20px;
+   /* margin-top: 25px;
+    margin-left: 20px;*/
 }
 
 .titulo-secundario{
@@ -241,7 +241,7 @@ ul{
 
 .texto{
     color:  rgb(79, 99, 103);
-    font-size: 40px;
+    font-size: 35px;
     background-color:#FF6D94 ;
     display: flex;
     font-family: 'Fredoka One', cursive;
@@ -274,12 +274,13 @@ ul{
 }
 
 .contacto{
+   
     display: flex;
     flex-direction: row;
     text-align: left;
     justify-content: space-between;
-    width: 80%;
-    height: 719px;
+    /*width: 527px;*/
+    /*height: 719px;*/
     padding: 30px 60px;
     border: solid 1px  rgb(184, 216, 216);
     border-radius: 15px;
@@ -291,13 +292,16 @@ ul{
 .izquierda{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    height: 498px;
     margin-left: 30px;
     font-weight: 300; 
     line-height: 40px;
     text-align: justify;
 }
-
+.derecha{
+    margin-left:20px ;
+    
+ }
 .lista-redes{
     list-style: none;
     font-weight: 400;
@@ -311,6 +315,7 @@ ul{
 
 
 .primerp{
+   
     font-size: 16px; 
     display: block;
     margin-left: 455px ;
@@ -335,7 +340,7 @@ input, textarea {
     
     .footerna{
         height: 303.188px;
-        width: 100%;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -366,28 +371,37 @@ input, textarea {
         list-style: none;
         padding: 0; }
 
-        .footer-social-icon {
-            display: block;
-            width: 2.7rem;
-            height: 2.7rem;
-            background-color: white;
-            color: #FF6D94 ;
-            border-radius: 50%;
-            font-size: 1.2rem;
-            line-height: 2.7rem;
-            text-align: center;
-            transition: 0.1s;
-        }
-        .footer-social-item{
-            height: 63.187px;
-            width: 63.187px;
-            min-width: auto;
-            min-height: auto;
-        }
         .footer-social-links{
             display: flex;
-            width: 280px;
-            flex-direction: row;     
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            margin: 30px 0;
+    
+        }
+        .footer-social-link{
+            border-radius: 50%;
+            width: 2,7rem;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer-social-icon{
+            padding: 15px;
+            background-color: white;
+            color: #FF6D94;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            transition: 0.1s;
+        }
+        .footer-social-icon:hover{
+            padding: 15px;
+            background-color: #FF6D94;
+            color:white ;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            transition: 0.1s;
         }
         
         body{
@@ -420,6 +434,11 @@ input, textarea {
     justify-content: center;
     align-items: center;
 }
+.displayflex{
+    display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
 .redes{
     
     display: flex;
@@ -440,3 +459,96 @@ margin-left: 30px;
    
 }
        
+/*.parrafo-c{
+display: block;
+max-width: 400px;
+}*/
+
+
+input:valid{
+    background-color: #e8f0f0;
+    background: 0% 0%;
+    border: 1px solid #88c459;
+
+}
+
+@media screen and (max-width: 950px){
+.header{
+    display: none;
+
+}
+.presentacion{
+    flex-direction: column;
+}
+.primer-d{
+    padding: 440px 40px 130px;
+}
+.cards1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.contacto {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    /* width: 527px; */
+    /* height: 449px; */
+    /* padding: 30px 60px; */
+    /* border: solid 1px rgb(184, 216, 216); */
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #b4edc1;
+    font-size: 15px;
+    color: rgb(79, 99, 103);
+}
+.primerp{
+   
+    font-size: 16px; 
+    display: block;
+    margin-left: 162px ;
+    margin-top: 20px ;
+    max-width: 400px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+}
+@media screen and (max-width: 650px){
+    .primerp{
+   
+        font-size: 16px; 
+        display: block;
+        margin-left: 100px ;
+        margin-top: 20px ;
+        max-width: 400px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .contenededor-texto {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #FF6D94;
+    }
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: space-between;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 0px #b4edc1;
+        font-size: 15px;
+        color: rgb(79, 99, 103);
+    }
+}
+@media screen and (max-width: 450px){
+    .footer-nav-menu {
+        display: contents; }
+}
