@@ -7,3 +7,6 @@
 1) HTML
 
 2) CSS
+
+#### · Diseño Responsive
+
